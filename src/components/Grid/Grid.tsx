@@ -25,7 +25,7 @@ const StyledList = styled.div`
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  @media (max-width: 400px) {
+  @media (max-width: 460px) {
     grid-template-columns: minmax(0, 1fr);
   }
 `;
