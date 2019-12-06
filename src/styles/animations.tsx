@@ -23,27 +23,24 @@ export const fadeIn = keyframes`
   }
 `;
 
-export const flexShrink = keyframes`
+const fadeDownAnim = keyframes`
   from {
-    flex-grow: 1;
-  }
-  to {
-    flex-grow: 0;
-  }
-`;
-
-export const growAndShow = keyframes`
-  from {
-    max-height: 0;
     opacity: 0;
+    transform: translateY(-50px);
   }
   to {
-    max-height: 100%;
     opacity: 1;
+    transform: translateY(0px);
   }
 `;
 
 // Wrappers.
+export const fadeDown = (component, delay = "0s") => styled(component)`
+  opacity: 0;
+  transform: translateY(-100px);
+  animation: 0.5s ${fadeDownAnim} ${delay} ${theMagicCurve} forwards;
+`;
+
 export const backgroundSlide = component => styled(component)`
   background-repeat: no-repeat;
   background-size: cover;

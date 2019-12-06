@@ -7,21 +7,19 @@ import CardTypes from "models/CardTypes";
 
 // Styles.
 import { StyledCardType, StyledCardTitle } from "../cardStyles";
-import { flexShrink, theMagicCurve } from "styles/animations";
+import { fadeDown } from "styles/animations";
 
 interface IProps {
   card: CardModel;
 }
 
-const StyledCardContent = styled.p`
+const StyledCardContent = fadeDown(styled.p`
   margin: 0;
   margin-top: 1em;
   font-size: 0.85rem;
   overflow: auto;
   white-space: pre-wrap;
-  flex-grow: 1;
-  animation: 0.5s ${flexShrink} 0.5s ${theMagicCurve} forwards;
-`;
+`);
 
 const TextCardContainer = styled.div`
   display: flex;

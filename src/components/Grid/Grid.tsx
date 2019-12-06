@@ -16,12 +16,18 @@ import { useStoredCards } from "hooks/useStoredCards";
 // Styled.
 const StyledList = styled.div`
   list-style-type: none;
-  padding: 0;
+  padding: 0 0 2rem;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-auto-rows: 275px;
   justify-content: center;
   align-items: center;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  @media (max-width: 400px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
 `;
 
 // Props.

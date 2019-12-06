@@ -2,28 +2,31 @@
 import styled from "styled-components";
 
 // Styles.
-import { theMagicCurve, growAndShow } from "styles/animations";
+import { fadeDown } from "styles/animations";
 
-export const StyledCardType = styled.p`
-  margin: 0;
-  text-transform: uppercase;
-  font-size: 0.85em;
-  color: #d36409;
-`;
+export const StyledCardType = fadeDown(
+  styled.p`
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    color: #d36409;
+  `,
+  "0.5s"
+);
 
-export const StyledCardTitle = styled.h1`
-  margin: 0 0.5rem 0 0;
-  color: #09d3ac;
-  flex-shrink: 1;
-  font-size: 1.15em;
-  font-weight: 300;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  /* max-height: 0; */
-  opacity: 0;
-  animation: 0.5s ${growAndShow} ${theMagicCurve} forwards;
-`;
+export const StyledCardTitle = fadeDown(
+  styled.h1`
+    margin: 0 0.5rem 0 0;
+    color: #09d3ac;
+    flex-shrink: 1;
+    font-size: 1.15em;
+    font-weight: 300;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  `,
+  "0.25s"
+);
 
 const randomColors = [
   {

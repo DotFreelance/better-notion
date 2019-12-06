@@ -8,7 +8,7 @@ import CardModel from "models/CardModel";
 import { useWebsiteDetails } from "hooks/useWebsiteDetails";
 
 // Styles.
-import { backgroundSlide, flexShrink, theMagicCurve } from "styles/animations";
+import { backgroundSlide, fadeDown } from "styles/animations";
 import { StyledCardType, StyledCardTitle } from "../cardStyles";
 import CardTypes from "models/CardTypes";
 
@@ -26,13 +26,11 @@ const WebsiteCardContainer = backgroundSlide(styled.div`
   padding: 1em;
 `);
 
-const StyledCardUrl = styled.p`
+const StyledCardUrl = fadeDown(styled.p`
   margin: 0;
   font-size: 0.85em;
   color: #ffffff;
-  flex-grow: 1;
-  animation: 0.5s ${flexShrink} 0.5s ${theMagicCurve} forwards;
-`;
+`);
 
 export const WebsiteCard: React.FC<IProps> = ({ card }) => {
   const [website] = useWebsiteDetails(card.url);
