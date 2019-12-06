@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/better-notion/static/css/main.f3abfe8a.chunk.css",
-    "main.js": "/better-notion/static/js/main.991f3805.chunk.js",
-    "main.js.map": "/better-notion/static/js/main.991f3805.chunk.js.map",
+    "main.css": "/better-notion/static/css/main.53eaa97c.chunk.css",
+    "main.js": "/better-notion/static/js/main.76172f3c.chunk.js",
+    "main.js.map": "/better-notion/static/js/main.76172f3c.chunk.js.map",
     "runtime-main.js": "/better-notion/static/js/runtime-main.fde3ee9d.js",
     "runtime-main.js.map": "/better-notion/static/js/runtime-main.fde3ee9d.js.map",
     "static/js/2.8fcbcc35.chunk.js": "/better-notion/static/js/2.8fcbcc35.chunk.js",
     "static/js/2.8fcbcc35.chunk.js.map": "/better-notion/static/js/2.8fcbcc35.chunk.js.map",
     "index.html": "/better-notion/index.html",
-    "precache-manifest.f37eb04bd9ddc4211a9ed0994fd2ba9f.js": "/better-notion/precache-manifest.f37eb04bd9ddc4211a9ed0994fd2ba9f.js",
+    "precache-manifest.c9fcfc9c861a90149aaa2427e37a7747.js": "/better-notion/precache-manifest.c9fcfc9c861a90149aaa2427e37a7747.js",
     "service-worker.js": "/better-notion/service-worker.js",
-    "static/css/main.f3abfe8a.chunk.css.map": "/better-notion/static/css/main.f3abfe8a.chunk.css.map",
+    "static/css/main.53eaa97c.chunk.css.map": "/better-notion/static/css/main.53eaa97c.chunk.css.map",
     "static/media/logo.svg": "/better-notion/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fde3ee9d.js",
     "static/js/2.8fcbcc35.chunk.js",
-    "static/css/main.f3abfe8a.chunk.css",
-    "static/js/main.991f3805.chunk.js"
+    "static/css/main.53eaa97c.chunk.css",
+    "static/js/main.76172f3c.chunk.js"
   ]
 }

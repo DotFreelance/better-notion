@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/better-notion/precache-manifest.f37eb04bd9ddc4211a9ed0994fd2ba9f.js"
+  "/better-notion/precache-manifest.c9fcfc9c861a90149aaa2427e37a7747.js"
 );
 
 self.addEventListener('message', (event) => {
