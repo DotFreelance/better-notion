@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "990a234b02645a94c55888c708a27e5f",
+    "revision": "0370accea66d3bc099a6a51d7f371fbf",
     "url": "/better-notion/index.html"
   },
   {
-    "revision": "3229523da375fc34cba1",
+    "revision": "d845596ffdbb4fa8d966",
     "url": "/better-notion/static/css/main.53eaa97c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/better-notion/static/js/2.8fcbcc35.chunk.js"
   },
   {
-    "revision": "3229523da375fc34cba1",
-    "url": "/better-notion/static/js/main.76172f3c.chunk.js"
+    "revision": "d845596ffdbb4fa8d966",
+    "url": "/better-notion/static/js/main.fe8f692d.chunk.js"
   },
   {
     "revision": "5ac5500bcbff719f217f",
